@@ -1,5 +1,5 @@
 import pytest
-for src.num_par import es_par
+from src.num_par import es_par
 
 def test_es_par():
     assert es_par(4) is True
