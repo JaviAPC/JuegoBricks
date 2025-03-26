@@ -1,5 +1,5 @@
 import pytest
-from src.validaciones import es_email_valido
+from src.validacion_correo import es_email_valido
 
 def test_es_email_valido():
     assert es_email_valido("correo@example.com") is True
