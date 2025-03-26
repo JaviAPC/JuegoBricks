@@ -1,5 +1,5 @@
 import pytest
-from src.operaciones import potencia, es_par
+from src.potencia import potencia, es_par
 
 def test_potencia():
     assert potencia(2, 3) == 8
